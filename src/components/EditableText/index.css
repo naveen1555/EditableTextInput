@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5d0fe;
+}
+
+.text-container {
+  background-color: white;
+  border-radius: 10px;
+  height: 300px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.input-save-btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-box {
+  border: 1px solid #cbd2d9;
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: black;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.save-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #d946ef;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px 14px;
+  border-radius: 4px;
+}
+
+.paragraph-edit-btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.display-text {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-right: 14px;
+}
